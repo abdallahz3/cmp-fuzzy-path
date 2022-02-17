@@ -13,21 +13,13 @@ path is first transformed to a regular expression like this: `p/t/f` -->
 
 # Installation
 
-Using [Packer](https://github.com/wbthomason/packer.nvim/) with `fzf`:
-```lua
-use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make'}
-use "hrsh7th/nvim-cmp"
-use {'tzachar/cmp-fuzzy-path', requires = {'hrsh7th/nvim-cmp', 'tzachar/fuzzy.nvim'}}
-```
-
 Using [Packer](https://github.com/wbthomason/packer.nvim/) with `fzy`:
 ```lua
-use {'romgrk/fzy-lua-native', run = 'make'}
 use "hrsh7th/nvim-cmp"
-use {'tzachar/cmp-fuzzy-path', requires = {'hrsh7th/nvim-cmp', 'tzachar/fuzzy.nvim'}}
+use {'tzachar/cmp-fuzzy-path'}
 ```
 
-You should have `fd` in your `PATH`, or edit the configuation to point at the
+You should have `fd` and `skim` in your `PATH`, or edit the configuation to point at the
 exact location.
 
 
