@@ -16,7 +16,7 @@ path is first transformed to a regular expression like this: `p/t/f` -->
 Using [Packer](https://github.com/wbthomason/packer.nvim/) with `fzy`:
 ```lua
 use "hrsh7th/nvim-cmp"
-use {'tzachar/cmp-fuzzy-path'}
+use {'abdallahz3/cmp-fuzzy-path'}
 ```
 
 You should have `fd` and `skim` in your `PATH`, or edit the configuation to point at the
